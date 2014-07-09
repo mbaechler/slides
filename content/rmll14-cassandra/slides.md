@@ -37,7 +37,7 @@
 ## NoSQL features
 
 
-## small fraction of what SQL do
+## small fraction of what SQL does
 
 
 ## ~~Transaction~~
@@ -62,7 +62,7 @@
 ## change of datamodel
 
 
-## more responsibility on application side
+## more responsibility on the application side
 
 
 ## duplication management
@@ -88,7 +88,7 @@
 ## On-demand consistency level
 
 
-## Every-nodes are (almost) equals
+## all nodes are (almost) equal
 
 
 ## Very fast for write loads
@@ -178,21 +178,21 @@ But you are not looking for a single-node server, do you ?
 
 
 # QUORUM
-- weaker partition tolerancy
+- weaker partition tolerance
 - longer latency
 - strong consistency
 
 
 # ALL
 - not partition tolerant
-- bad performances
-- it makes conservatives people happy
+- bad performance
+- it makes conservative people happy
 
 
 ## QUORUM is a very good start
 
 
-## **ONE** can be used with some specitific data
+## **ONE** can be used with some specific data
 
 
 ## immutable data helps a lot
@@ -205,10 +205,10 @@ But you are not looking for a single-node server, do you ?
 # Production
 
 
-I expected to encouter issues by the time I come to RMLL
+I expected to encounter issues by the time I came to RMLL
 
 
-But in fact I didn't got much
+But in fact I didn't get many
 
 
 # Authentication
@@ -254,7 +254,7 @@ RP = 2 is not very useful if you use QUORUM
 - local disks
 - two disks per node (commitlog + data)	
 - SSDs
-- lot of RAM
+- lots of RAM
 - 2 Gb Ethernet interfaces / 2 networks
 
 %%%
